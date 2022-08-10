@@ -1,20 +1,18 @@
 # AndroidIDEBackup
-下载 release 中的压缩包放进sdcard根目录
 
+Download android_backup.gz to the roots of the memory card.
 
+Open Terminal cd Software data Catalog.
 
-打开AndroidIDE的终端，使用以下cd命令进入androidide的根目录
+`cd /data/data/com.itsaky.androidide/files`
 
-<pre>cd /data/data/com.itsaky.androidide/files</pre>
+Use the following command to decompress the compressed package
 
+`tar -zxf /sdcard/androidide_backup.gz
+ --recursive-unlink --preserve-permissions`
 
+If an error occur,try to cancel the parameter.
 
+`tar -zxf /sdcard/androidide_backup.gz`
 
-使用tar命令解压缩 androidide_backup.gz，此操作会覆盖原始数据，请做好您的备份
-
-<pre>tar -zxf /sdcard/androidide_backup.gz
- --recursive-unlink --preserve-permissions</pre>
-
-
-
-等待解压完成，这可能需要一些时间，解压完成之后重启androidIED即可
+Wait patiently to complete the decompression, and then restart the software
