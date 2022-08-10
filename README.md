@@ -15,4 +15,4 @@ If an error occur,try to cancel the parameter.
 
 `tar -zxf /sdcard/androidide_backup.gz`
 
-Wait patiently to complete the decompression, and then restart the software
+Wait patiently to complete the decompression, and then restart the software.
